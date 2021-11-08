@@ -1,0 +1,90 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hey", "Hii", "hiii", "How are you", "Is anyone there?", "Hello","Helloo","Hola", "Can we talk?", "Good day"
+
+      ],
+      "responses": [
+        "Hey :-)", "Hey dear!,Thanks for talking to me", "I welcome you with a smile!", "Hi there, how can I help?", "How are you feeling today?", "Hola, Mi Amigo!! :-) Are you doing well?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Byee","See you later", "Goodbye","Bubyee","Have a good day!"],
+      "responses": [
+        "See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": ["happy","wonderful"," feeling great","feeling awesome", "glad", " elated", "joy", "overjoyed", "I am happy"],
+      "responses": ["Glad that you are feeling well!", "Keep smiling You are worthy", "It makes me happy to know you are happy!"]
+    },
+    {
+      "tag": "sad",
+      "patterns": ["I am sad","I feel lonely","I feel depressed", "I hate this",
+        "sad","lonely","depressed", "no one to talk","hate", "feel shitty","feel bored","feel","I hate myself so much",
+        "feel bad",
+        "feel nasty"
+      ],
+      "responses": [
+        "Don't worry, I am here for you  :-)",
+        "Listening to joyful music helps lighten the mood","Take care dear","Keep smiling, don't let it fade away",
+        "Talk to your parents, or friends whom you haven't called in a long time, maybe you'll feel better!:-)",
+        "Go for a walk in the garden, nature is amazing to revive the mood!!"
+      ]
+    },
+    {
+      "tag": "trigger warnings",
+      "patterns": [
+        "I want to die", "I am suicidal",
+        "Wish I was dead",
+        "I want to commit suicide",
+        "Commit suicide","I can't live"
+      ],
+      "responses": [
+        "Just listen to me and Call on these helpline numbers right now !! , ", "Don't give up just yet!",
+        "Call your therapist! Here is the phone number You are worth living",
+        "Just take a few deep breaths and calm yourself down for a while"
+      ]
+    },
+    {
+      "tag": "feeling okay",
+      "patterns": [
+        "I am okay",
+        "I feel calm",
+        "Okay sure", "I am bored", "Okayish", "feel better"
+      ],
+      "responses": [
+        "Be calm and deep breathe for 5 minutes and count your breathing for me ,please?",
+        "Well, you can do something intresting, like your favourite hobby?"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Thank You",
+      "patterns": [
+        "That helps",
+        "Thank You ",
+        "Sure I will"
+      ],
+      "responses": [
+        "You are welcome",
+        "Glad I could be of some help"
+      ]
+    }
+  ]
+}
